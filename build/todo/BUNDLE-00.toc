@@ -1,0 +1,3 @@
+([('todo',
+   '/Users/taisfigueiredo/Cursos/Python/Check_list/dist/todo',
+   'EXECUTABLE')],)
