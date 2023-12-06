@@ -48,7 +48,7 @@ Make sure you have Python 3 installed and accessible in your environment. If usi
 
 ## Author
 
-Your Name
+Tais Figueiredo
 
 ## License
 
