@@ -1,6 +1,3 @@
-Certainly, here's the README translated into English:
-
-```markdown
 # ToDo App
 
 This is a simple to-do list application created in Python using the Flet library and SQLite as the database. The app allows adding, marking as complete or incomplete, and viewing tasks.
