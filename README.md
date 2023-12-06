@@ -22,7 +22,8 @@ markdown
 Execute o aplicativo com o seguinte comando:
 
   ```bash
-  python3 Todo.py
+  python3 nome_do_arquivo.py
+
   ```
 
 Certifique-se de ter o Python 3 instalado e acessível no seu ambiente. Se estiver usando um ambiente virtual, ative-o antes de executar o script.
@@ -52,5 +53,5 @@ Tais Figueiredo
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
 
 JavaScript
-Certifique-se de substituir `Todo.py` pelo nome real do seu arquivo Python. Além disso, preencha as informações de autor e licença conforme apropriado para o seu projeto.
+Certifique-se de substituir `nome_do_arquivo.py` pelo nome real do seu arquivo Python. Além disso, preencha as informações de autor e licença conforme apropriado para o seu projeto.
 
