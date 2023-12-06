@@ -1,57 +1,61 @@
+Certainly, here's the README translated into English:
+
+```markdown
 # ToDo App
 
-Este é um aplicativo de lista de tarefas simples criado em Python usando a biblioteca Flet e SQLite como banco de dados. O aplicativo permite adicionar, marcar como concluída ou incompleta, e visualizar tarefas.
+This is a simple to-do list application created in Python using the Flet library and SQLite as the database. The app allows adding, marking as complete or incomplete, and viewing tasks.
 
-## Pré-requisitos
+## Prerequisites
 
-markdown
 - Python 3.x
-- [Flet](https://github.com/BecameTrue/flet) - Uma biblioteca para criação de interfaces gráficas simples em Python.
-- SQLite - Um banco de dados embutido no Python.
+- [Flet](https://github.com/BecameTrue/flet) - A library for creating simple graphical interfaces in Python.
+- SQLite - An embedded database in Python.
 
-## Instalação
+## Installation
 
-1. Clone ou faça o download deste repositório.
-2. Instale as dependências executando:
+1. Clone or download this repository.
+2. Install dependencies by running:
 
    ```bash
    pip install flet
+   ```
 
-# Execução
+## Execution
 
-Execute o aplicativo com o seguinte comando:
+Run the application with the following command:
 
-  ```bash
-  python3 nome_do_arquivo.py
+```bash
+python3 filename.py
+```
 
-  ```
+Make sure you have Python 3 installed and accessible in your environment. If using a virtual environment, activate it before running the script.
 
-Certifique-se de ter o Python 3 instalado e acessível no seu ambiente. Se estiver usando um ambiente virtual, ative-o antes de executar o script.
+## Features
 
-# Funcionalidades
+- **Add Task:** Enter a task in the text field and click the add button to add it to the list.
 
-- Adicionar Tarefa: Digite uma tarefa no campo de texto e clique no botão de adição para adicioná-la à lista.
-- Marcar como Completa/Incompleta: Use as caixas de seleção ao lado de cada tarefa para marcá-las como completa ou incompleta.
-- Filtrar por Status: Use as abas "Todos", "Em andamento" e "Finalizados" para visualizar tarefas com base em seu status.
-- 
-# Estrutura do Código
+- **Mark as Complete/Incomplete:** Use the checkboxes next to each task to mark them as complete or incomplete.
 
-- ToDo: Classe principal que define a interface do aplicativo e interage com o banco de dados SQLite.
-- db_execute: Função para executar consultas SQL no banco de dados.
-- set_value: Atualiza a variável task com o valor do campo de texto.
-- add: Adiciona uma nova tarefa ao banco de dados.
-- checked: Atualiza o status de uma tarefa (completa/incompleta) no banco de dados.
-- tasks_container: Cria um contêiner de tarefas usando a biblioteca Flet.
-- update_task_list: Atualiza dinamicamente a lista de tarefas exibida na interface.
-- tabs_changed: Atualiza a lista de tarefas com base na aba selecionada.
+- **Filter by Status:** Use the "All," "In Progress," and "Completed" tabs to view tasks based on their status.
 
-# Autor
-Tais Figueiredo
+## Code Structure
 
-# Licença
+- `ToDo`: Main class defining the application interface and interacting with the SQLite database.
+- `db_execute`: Function to execute SQL queries on the database.
+- `set_value`: Updates the `task` variable with the value from the text field.
+- `add`: Adds a new task to the database.
+- `checked`: Updates the status of a task (complete/incomplete) in the database.
+- `tasks_container`: Creates a task container using the Flet library.
+- `update_task_list`: Dynamically updates the displayed task list in the interface.
+- `tabs_changed`: Updates the task list based on the selected tab.
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
+## Author
 
-JavaScript
-Certifique-se de substituir `nome_do_arquivo.py` pelo nome real do seu arquivo Python. Além disso, preencha as informações de autor e licença conforme apropriado para o seu projeto.
+Your Name
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
+
+Please replace `filename.py` with the actual name of your Python file. Also, fill in the author and license information as appropriate for your project.
